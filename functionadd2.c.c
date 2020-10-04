@@ -6,9 +6,9 @@ void sum(int a,int b);
 void main()
 {
    int a,b;
-   printf("Enter first number:");
+   printf("Enter first number:\n");
    scanf("%d",&a);
-   printf("Enter two number:");
+   printf("Enter two number:\n");
    scanf("%d",&b);
    sum(a,b);
 }
@@ -16,5 +16,5 @@ void sum(int a,int b)
 {
    int sum;
    sum=a+b;
-   printf("Sum of two numbers=%d",sum);
+   printf("Sum of two numbers=%d\n",sum);
 }
